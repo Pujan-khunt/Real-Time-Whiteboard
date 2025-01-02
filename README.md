@@ -1,9 +1,9 @@
 # Real Time Whiteboard
 
 ## Installation
-NOTE: before starting the installation process please ensure you have nodejs already installed in your system. You can check 
+NOTE: before starting the installation process please ensure you have nodejs already installed in your system.
 
-You can check this by typing the below line.
+You can verify this by typing the below line in a terminal.
 ```bash
 node -v
 ```
