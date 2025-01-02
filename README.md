@@ -14,15 +14,16 @@ If not then install it from https://nodejs.org
 
 <br>
 
+---
 
-Open a terminal and enter the below line:
+Step 1: Open a terminal and enter the below line:
 ```bash
 git clone https://github.com/Pujan-khunt/Real-Time-Whiteboard.git
 ```
 
 <br/>
 
-Then run this command:
+Step 2: Then run this command:
 ```bash
 cd Real-Time-Whiteboard
 ./install.sh
