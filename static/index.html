@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real Time Whiteboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="toolbar">
+      <input type="color" id="colorPicker" />
+      <select id="penSize">
+        <option value="1 ">Thin</option>
+        <option value="3">Medium</option>
+        <option value="7">Thick</option>
+      </select>
+      <button id="clearBoard">Clear</button>
+    </div>
+
+    <canvas id="whiteboard"></canvas>
+
+    <script src="script.js"></script>
+  </body>
+</html>
