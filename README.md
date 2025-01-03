@@ -1,9 +1,9 @@
 # Real Time Whiteboard
 
 ## Installation
-NOTE: before starting the installation process please ensure you have nodejs already installed in your system. You can check 
+NOTE: before starting the installation process please ensure you have nodejs already installed in your system.
 
-You can check this by typing the below line.
+You can verify this by typing the below line in a terminal.
 ```bash
 node -v
 ```
@@ -23,11 +23,12 @@ git clone https://github.com/Pujan-khunt/Real-Time-Whiteboard.git
 
 <br/>
 
-Step 2: Then run this command:
+Step 2: Then run these command:
 ```bash
 cd Real-Time-Whiteboard
 ./install.sh
 ```
 
-Everything will be automatically installed and the server will start on http://localhost:3000 so open the browser and 
-enter 'http://localhost:3000' as the url.
+Everything will be automatically installed and the server will start on http://localhost:3000.
+
+So either enter 'http://localhost:3000' in the url section of your browser or press Ctrl + Click while hovering over the link which is opened in the terminal.
