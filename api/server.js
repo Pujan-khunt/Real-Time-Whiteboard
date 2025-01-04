@@ -7,7 +7,14 @@
     const io = new Server(server);
     const PORT = process.env.PORT || 3000;
 
+    const cors = require('cors');
+
     let users = 0;
+
+    app.use(cors({
+        origin: ['https://fastwhiteboard.vercel.app'],
+        methods: ['GET', 'POST']
+    }));
 
     app.use(express.static('static'));
 

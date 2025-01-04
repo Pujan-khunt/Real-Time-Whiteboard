@@ -1,4 +1,6 @@
-const socket = io();
+const socket = io('https://real-time-whiteboard-b3fd.onrender.com', {
+    transports: ['websocket']
+});
 
 // canvas properties
 const canvas = document.querySelector('#whiteboard');
